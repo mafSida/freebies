@@ -36,6 +36,21 @@ img {
 
 /* =====GLOBAL STYLES===== */
 
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #4f5665;
+  font-size: 16px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.42;
+  color: #0b132a;
+}
+
+/* =====HEADER===== */
+
 .header {
 }
 .container {
@@ -43,6 +58,12 @@ img {
 .nav {
 }
 .logo {
+  font-weight: 500;
+  font-size: 20px;
+  color: #0b132a;
+}
+.vpn {
+  font-weight: 700;
 }
 .menu-list {
 }
@@ -51,29 +72,61 @@ img {
 .menu-link {
 }
 .sign-in-btn {
+  font-weight: 500;
+  color: #0b132a;
 }
 .sing-up-btn {
+  font-weight: 500;
+  color: #f53855;
 }
+
+/* =====SECTION HERO===== */
+
 .hero {
 }
 .hero-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+  color: #0b132a;
 }
 .hero-text {
+  line-height: 1.88;
 }
 .get-started-btn {
+  font-weight: 700;
+  line-height: 1.5625;
+  color: #fff;
+  background: #f53838;
+  border-radius: 10px;
+  width: 250px;
+  height: 60px;
 }
 .hero-img {
 }
+
+/* ====SECTION STATS===== */
+
 .stats {
 }
-.wrapper {
+.stats-list {
+}
+.stats-item {
 }
 .stats-svg {
 }
 .stats-num {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #0b132a;
 }
 .stats-text {
+  line-height: 1.5;
 }
+
+/* =====SECTION FEATURES===== */
+
 .features {
 }
 .features-img {
@@ -81,6 +134,7 @@ img {
 .features-title {
 }
 .features-text {
+  line-height: 1.88;
 }
 .features-list {
 }
@@ -89,12 +143,20 @@ img {
 .features-svg {
 }
 .features-list-text {
+  font-size: 14px;
+  line-height: 2.14;
 }
 .plan {
 }
 .plan-title {
+  text-align: center;
 }
+
+/* =====SECTION PLAN===== */
+
 .plan-text {
+  text-align: center;
+  line-height: 1.88;
 }
 .plan-list {
 }
@@ -103,6 +165,11 @@ img {
 .plan-img {
 }
 .plan-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #0b132a;
 }
 .plan-features-list {
 }
@@ -111,17 +178,42 @@ img {
 .plan-features-svg {
 }
 .plan-features-text {
+  line-height: 2.14;
 }
 .plan-list-pricing {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: center;
+  color: #0b132a;
+}
+
+.pricing-style {
+  font-weight: 400;
+  color: #4f5665;
 }
 .plan-list-select {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f53838;
 }
+
+/* =====SECTION GLOBAL==== */
+
 .global {
 }
 .global-title {
+  text-align: center;
 }
 .global-text {
+  line-height: 1.875;
+  text-align: center;
 }
+
+.global-text-style {
+  font-weight: 500;
+}
+
 .global-img {
 }
 .global-list {
@@ -131,12 +223,16 @@ img {
 .global-link {
 }
 .global-svg {
+  /* =====CUSTOMER SECTION===== */
 }
 .customer {
 }
 .customer-title {
+  text-align: center;
 }
 .customer-text {
+  line-height: 1.875;
+  text-align: center;
 }
 .customer-list {
 }
@@ -145,33 +241,67 @@ img {
 .customer-img {
 }
 .customer-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #0b132a;
 }
 .customer-location {
+  line-height: 2.14;
 }
 .customer-point {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #0b132a;
 }
 .customer-svg {
 }
 .customer-review {
+  line-height: 1.875;
+  color: #0b132a;
 }
 .customer-btn-left {
 }
 .customer-btn-right {
 }
+
+/* =====SUBSCRIBE SECTION===== */
+
 .subscribe {
 }
 .subscribe-title {
+  line-height: 1.29;
 }
 .subscribe-text {
+  line-height: 1.88;
 }
 .subscribe-btn {
+  font-weight: 700;
+  line-height: 1.5625;
+  color: #fff;
+  background: #f53838;
+  border-radius: 10px;
+  width: 250px;
+  height: 60px;
 }
+
+/* =====FOOTER===== */
+
 .footer {
+  line-height: 1.88;
 }
+
 .logo-svg {
 }
 .footer-text {
+  line-height: 1.88;
 }
+
+.footer-text-style {
+  font-weight: 500;
+}
+
 .footer-social-list {
 }
 .footer-social-item {
@@ -180,13 +310,28 @@ img {
 }
 .footer-social-svg {
 }
+
+.copyright {
+  line-height: 1.88;
+  color: #afb5c0;
+}
+
+.copyright-style {
+  font-weight: 500;
+}
+
 .footer-list {
 }
 .footer-item {
 }
 .footer-list-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #0b132a;
 }
-.footer-listsublist {
+.footer-sublist {
 }
 .footer-sublist-item {
+  line-height: 1.875;
 }
