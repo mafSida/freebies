@@ -1,3 +1,41 @@
+/* =====RESET===== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  padding: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+/* =====GLOBAL STYLES===== */
+
 .header {
 }
 .container {
