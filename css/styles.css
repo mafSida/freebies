@@ -49,11 +49,18 @@ h2 {
   color: #0b132a;
 }
 
+.container {
+  max-width: 1108px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
 /* =====HEADER===== */
 
 .header {
 }
-.container {
+.header .container {
 }
 .nav {
 }
@@ -74,6 +81,14 @@ h2 {
 .sign-in-btn {
   font-weight: 500;
   color: #0b132a;
+}
+
+.header-btns-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-btns-item {
 }
 .sing-up-btn {
   font-weight: 500;
