@@ -14,6 +14,7 @@ button {
   cursor: pointer;
   border: none;
   box-shadow: none;
+  background: transparent;
 }
 
 ul,
@@ -26,7 +27,9 @@ ol {
 a {
   text-decoration: none;
   font-style: normal;
+  color: inherit;
   padding: 0;
+  display: inline-block;
 }
 
 img {
@@ -61,38 +64,85 @@ h2 {
 .header {
 }
 .header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-weight: 500;
   font-size: 20px;
   color: #0b132a;
+  display: flex;
+  align-items: center;
 }
 .vpn {
   font-weight: 700;
 }
 .menu-list {
+  display: flex;
+  align-items: center;
+  margin-left: 157px;
+  column-gap: 40px;
 }
 .menu-item {
 }
 .menu-link {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.sign-in-btn {
-  font-weight: 500;
-  color: #0b132a;
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #f53855;
 }
 
 .header-btns-list {
   display: flex;
+  align-items: center;
   margin-left: auto;
+  column-gap: 30px;
 }
 
 .header-btns-item {
 }
+
+.sign-in-btn {
+  font-weight: 500;
+  color: #0b132a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sign-in-btn:hover,
+.sign-in-btn:focus {
+  color: #f53855;
+}
+
 .sing-up-btn {
   font-weight: 500;
   color: #f53855;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  width: 150px;
+  height: 45px;
+  position: relative;
+}
+
+.sing-up-btn:hover,
+.sing-up-btn:focus {
+  color: #fff;
+  background-color: #f53855;
+}
+
+.sing-up-btn::after {
+  content: '';
+  position: absolute;
+  inset: -35px 0;
+  background: transparent;
 }
 
 /* =====SECTION HERO===== */
